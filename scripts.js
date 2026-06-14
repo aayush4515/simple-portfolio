@@ -56,7 +56,7 @@ function togglePublications() {
     const toggleButton = document.getElementById('toggle-publications');
     toggleButton.textContent = showingSelected ? 'Show All' : 'Show Selected';
     const toggleHeader = document.getElementById('toggle-header');
-    toggleHeader.textContent = showingSelected ? 'Selected Publications' : 'All Publications';
+    toggleHeader.textContent = showingSelected ? 'Selected Research Work' : 'All Research Work';
 }
 
 // Render publications based on selection state
